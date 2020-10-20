@@ -2,6 +2,8 @@
 
 <img align="right" src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/source.gif" width=150px height=150px>
 
+<p><strong>About me</strong></p>
+
 * 📚 I'm currently in High School (15 yo) 
 * 🗣️ I usually speak Indonesian 
 * 🌱 I have interest in programming, but i'm still beginner 
