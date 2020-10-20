@@ -1,4 +1,5 @@
-## Hello there, I'm Raihan Putra K 👋
+## Hello there, 
+## I'm Raihan Putra K 👋
 
 * I'm currently in High School (15 yo) 🏫
 * I usually speak Indonesian 🇮🇩
