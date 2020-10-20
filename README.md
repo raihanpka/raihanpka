@@ -1,4 +1,4 @@
-## Hello there, <br> I'm Raihan Putra K 
+## Hello there, <br> I'm Raihan Putra K <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width=25px height=25px>
 
 * 📚 I'm currently in High School (15 yo)
 * 🗣️ I usually speak Indonesian 
