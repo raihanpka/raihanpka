@@ -4,5 +4,5 @@
 
 <p><strong>About me</strong></p>
 
-* Yaudah segitu aja dulu
+* Yaudah segitu aja dulu, entar ditambahin lagi hehe
 
