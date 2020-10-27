@@ -4,5 +4,5 @@
 
 <p><strong>About me</strong></p>
 
-* 🌱 I have interest in JavaScript, but i'm still beginner 
+* Yaudah segitu aja dulu
 
