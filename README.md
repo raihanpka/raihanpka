@@ -2,7 +2,7 @@
 </h2>
 
 <h3 align="center">
-<img align="center" src="https://raw.githubusercontent.com/lunareixx/lunareixx/master/assets/Hi_Onodera.gif" width=250px height=50px>
+<img align="center" src="https://raw.githubusercontent.com/lunareixx/lunareixx/master/assets/Hi_Onodera.gif" width=250px height=125px>
 </h3>
 
 
