@@ -8,5 +8,7 @@
 
 <p align="center"><strong>About me</strong></p>
 <p align="center">
-* Yaudah segitu aja dulu, entar ditambahin lagi hehe
+Saya seorang manusia
+  <br>
+Yaudah segitu aja dulu, entar ditambahin lagi hehe
 </p>
