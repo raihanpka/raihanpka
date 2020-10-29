@@ -1,4 +1,4 @@
-<h2 align="center">Hello there ! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width=25px height=25px> 
+<h2 align="center">Hello there ! 
 </h2>
 
 <h3 align="center">
@@ -8,7 +8,6 @@
 
 <p align="center"><strong>About me</strong></p>
 <p align="center">
-Saya seorang manusia
+No description
   <br>
-Yaudah segitu aja dulu, entar ditambahin lagi hehe
 </p>
