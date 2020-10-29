@@ -8,6 +8,6 @@
 
 <p align="center"><strong>About me</strong></p>
 <p align="center">
-No description
+Just an ordinary teenager who likes sleep and still learning about programming
   <br>
 </p>
