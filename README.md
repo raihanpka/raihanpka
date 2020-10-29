@@ -1,4 +1,4 @@
-<h2 align="center">Hello there ! <br>I'm Raihan Putra K <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width=25px height=25px> 
+<h2 align="center">Hello there !<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width=25px height=25px> 
 </h2>
 
 <h3 align="center">
