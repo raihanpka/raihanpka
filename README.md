@@ -6,7 +6,7 @@ I currently a second-year student majoring in Computer Science at IPB University
 
 My passion for technology has been growing since I was 6 years old and that was when I tried installing my some apps on my dad's laptop. From then on, I would often operate my dad's laptop and also started tinkering with other tech stuff. Maybe that's why I chose this computer science major.
 
-**Radically empathetic technology can illuminate our path towards a more just future.**
+**Advancing Technology for Humanity.**
 
 
 ### I really like music :headphones:
