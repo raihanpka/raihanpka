@@ -1,12 +1,12 @@
 # Hello, I'm Raihan!
 
-### Just an ordinary undergraduate computer science guy who want to learn code.
+### Just an ordinary undergraduate computer science guy who wants to learn code.
 
-I currently a second-year student majoring in Computer Science at IPB University. My primary interests are Computer Vision, Deep Learning, and Blockchain Development.
+I am currently a second-year student majoring in Computer Science at IPB University. My primary interests are Computer Vision, Deep Learning, and Blockchain Technology.
 
 My passion for technology has been growing since I was 6 years old and that was when I tried installing my some apps on my dad's laptop. From then on, I would often operate my dad's laptop and also started tinkering with other tech stuff. Maybe that's why I chose this computer science major.
 
-**Advancing Technology for Humanity.**
+**Advancing Technology for Humanity!**
 
 
 ### I really like music :headphones:
