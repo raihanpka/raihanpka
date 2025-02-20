@@ -1,6 +1,6 @@
 # Hello, I'm Raihan!
 
-### Just an ordinary undergraduate computer science guy who wants to learn code.
+### Just a computer science guy who wants to learn code.
 
 My name is Raihan, but my friends often called me "Peka". I am currently a second-year student majoring in Computer Science at IPB University. My primary interests are Computer Vision, Deep Learning, and Blockchain Technology.
 
