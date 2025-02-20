@@ -6,10 +6,8 @@ My name is Raihan, but my friends often called me "Peka". I am currently a secon
 
 My passion for technology has been growing since I was 6 years old and that was when I tried installing my some apps on my dad's laptop. From then on, I would often operate my dad's laptop and also started tinkering with other tech stuff. Maybe that's why I chose this computer science major.
 
-**Advancing Technology for Humanity!**
 
-
-### I really like music :headphones:
+### Also, I really like music :headphones:
 ---
 
 | 🎵 Now Playing                                                                                                                    |
