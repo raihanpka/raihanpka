@@ -8,7 +8,7 @@ My passion for technology has been growing since I was 5 years old and that was 
 
 
 ---
-
+<div align="center">
 | 🎵 Now Playing                                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------ |
 | <a href="https://github-raihanpka.vercel.app/now-playing?open"><img src="https://github-raihanpka.vercel.app/now-playing" width="540" height="64"></a> |
@@ -34,3 +34,4 @@ My passion for technology has been growing since I was 5 years old and that was 
     </tr>
   </tbody>
 </table>
+</div>
