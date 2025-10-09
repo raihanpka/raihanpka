@@ -1,7 +1,9 @@
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
 <p align="center">
   <img src="./star-wars-banner.jpg" alt="Hyperspace in Star Wars" />
 </p>
-
+          
 <h2 align="center">Hi there! I'm Raihan</h2>
 
 ###
@@ -52,16 +54,15 @@
 ###
 
 <div align="left">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" alt="Markdown" title="Markdown" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" title="React" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" title="Next.js" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg" alt="Astro" title="Astro" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" title="Tailwind CSS" />
-	<img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="Django" title="Django"/>
+  <img width="50" src="https://skillicons.dev/icons?i=html" alt="HTML5" title="HTML5" />
+  <img width="50" src="https://skillicons.dev/icons?i=css" alt="CSS3" title="CSS3" />
+  <img width="50" src="https://skillicons.dev/icons?i=react" alt="React" title="React" />
+  <img width="50" src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" title="Next.js" />
+  <img width="50" src="https://skillicons.dev/icons?i=astro" alt="Astro" title="Astro" />
+  <img width="50" src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" title="Tailwind CSS" />
+  <img width="50" src="https://skillicons.dev/icons?i=django" alt="Django" title="Django" />
 	<img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" alt="Streamlit" title="Streamlit"/>
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite.js" title="Vite.js" />
+  <img width="50" src="https://skillicons.dev/icons?i=vite" alt="Vite.js" title="Vite.js" />
   <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg" alt="Expo" title="Expo" />
   <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original-wordmark.svg" alt="React Native" title="React Native" />
 </div>
@@ -73,17 +74,16 @@
 ###
 
 <div align="left">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg" alt="Bun" title="Bun"/>
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express.js" title="Express.js" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg" alt="Axios" title="Axios" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI" title="FastAPI" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" title="MySQL" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" title="MongoDB" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" alt="Prisma" title="Prisma" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" alt="Supabase" title="Supabase" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg" alt="Firebase" title="Firebase"/>
+  <img width="50" src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" title="Node.js" />
+  <img width="50" src="https://skillicons.dev/icons?i=bun" alt="Bun" title="Bun" />
+  <img width="50" src="https://skillicons.dev/icons?i=express" alt="Express.js" title="Express.js" />
+  <img width="50" src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" title="FastAPI" />
+  <img width="50" src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL" />
+  <img width="50" src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" title="PostgreSQL" />
+  <img width="50" src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" title="MongoDB" />
+  <img width="50" src="https://skillicons.dev/icons?i=prisma" alt="Prisma" title="Prisma" />
+  <img width="50" src="https://skillicons.dev/icons?i=supabase" alt="Supabase" title="Supabase" />
+  <img width="50" src="https://skillicons.dev/icons?i=firebase" alt="Firebase" title="Firebase" />
 </div>
 
 
@@ -104,6 +104,7 @@
   <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" alt="Jupyter" title="Jupyter"/>
   <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecolab/googlecolab-original.svg" alt="Google Colab" title="Google Colab"/>
   <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original.svg" alt="Apache Spark" title="Apache Spark"/>
+</div>
 
 ###
 
