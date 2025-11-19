@@ -8,7 +8,7 @@
 
 ###
 
-<h4 align="center">MLOps, DevOps, and WebDev Enthusiast. Based in Bogor, Indonesia.</h4>
+<h4 align="center">MLOps, DevOps, and SWE Enthusiast. Based in Bogor, Indonesia.</h4>
 
 ---
 
