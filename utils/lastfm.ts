@@ -98,7 +98,7 @@ export async function topTrack({ index, timeRange = 'short_term' }: { index: num
     
   // Map Spotify time_range to Last.fm period
   const periodMap: Record<string, string> = {
-    'short_term': '1month',
+    'short_term': '3month', // Updated to 3month as per user data availability
     'medium_term': '6month',
     'long_term': 'overall'
   };
