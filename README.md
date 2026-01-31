@@ -8,7 +8,7 @@
 
 ###
 
-<h4 align="center">MLOps, DevOps, and SWE Junior. Based in Bogor, Indonesia.</h4>
+<h4 align="center">ML and SWE Junior. Based in Bogor, Indonesia.</h4>
 
 ---
 
