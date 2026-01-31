@@ -1,9 +1,10 @@
-import { NowRequest, NowResponse } from "@vercel/node";
+import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { renderToString } from "react-dom/server";
+import fetch from "isomorphic-unfetch";
 import { Track } from "../components/Track";
-import { topTrack } from "../utils/spotify";
+import { topTrack } from "../utils/lastfm";
 
-export default async function (req: NowRequest, res: NowResponse) {
+export default async function (req: VercelRequest, res: VercelResponse) {
   let { i, open } = req.query;
   i = Array.isArray(i) ? i[0] : i;
   const item = await topTrack({ index: Number.parseInt(i) });
@@ -35,9 +36,9 @@ export default async function (req: NowRequest, res: NowResponse) {
     coverImg = `data:image/jpeg;base64,${Buffer.from(buff).toString("base64")}`;
   }
 
-  const artist = (item.artists || []).map(({ name }) => name).join(", ");
+  const artist = (item.artists || []).map(({ name }: { name: string }) => name).join(", ");
   const text = renderToString(
-    Track({ index: Number.parseInt(i), cover: coverImg, artist, track })
+    Track({ index: Number.parseInt(i), cover: coverImg || undefined, artist, track }) as React.ReactElement
   );
   return res.status(200).send(text);
 }

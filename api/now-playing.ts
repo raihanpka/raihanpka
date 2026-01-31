@@ -1,17 +1,18 @@
-import { NowRequest, NowResponse } from "@vercel/node";
+import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { renderToString } from "react-dom/server";
 import { decode } from "querystring";
+import fetch from "isomorphic-unfetch";
 import { Player } from "../components/NowPlaying";
-import { nowPlaying } from "../utils/spotify";
+import { nowPlaying } from "../utils/lastfm";
 
-export default async function (req: NowRequest, res: NowResponse) {
+export default async function (req: VercelRequest, res: VercelResponse) {
   const {
     item = ({} as any),
     is_playing: isPlaying = false,
     progress_ms: progress = 0,
   } = await nowPlaying();
 
-  const params = decode(req.url.split("?")[1]) as any;
+  const params = decode((req.url || "").split("?")[1]) as any;
 
   if (params && typeof params.open !== "undefined") {
     if (item && item.external_urls) {
@@ -36,9 +37,9 @@ export default async function (req: NowRequest, res: NowResponse) {
     coverImg = `data:image/jpeg;base64,${Buffer.from(buff).toString("base64")}`;
   }
 
-  const artist = (item.artists || []).map(({ name }) => name).join(", ");
+  const artist = (item.artists || []).map(({ name }: { name: string }) => name).join(", ");
   const text = renderToString(
-    Player({ cover: coverImg, artist, track, isPlaying, progress, duration })
+    Player({ cover: coverImg || undefined, artist, track, isPlaying, progress, duration }) as React.ReactElement
   );
   return res.status(200).send(text);
 }
