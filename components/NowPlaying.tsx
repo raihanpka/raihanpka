@@ -6,8 +6,9 @@ export interface Props {
   cover?: string;
   track: string;
   artist: string;
-  progress: number;
-  duration: number;
+  // for spotify
+  // progress: number;
+  // duration: number;
   isPlaying: boolean;
 }
 
@@ -15,8 +16,8 @@ export const Player: React.FC<Props> = ({
   cover,
   track,
   artist,
-  progress,
-  duration,
+  // progress,
+  // duration,
   isPlaying,
 }) => {
   return (
@@ -48,13 +49,13 @@ export const Player: React.FC<Props> = ({
               align-items: center;
               gap: 3px;
               height: 20px;
-              margin-top: 6px;
+              margin-left: 8px;
             }
 
             .visualizer-bar {
               width: 3px;
               height: 100%;
-              background: linear-gradient(180deg, #D6ED17FF 0%, #A8C414FF 100%);
+              background: linear-gradient(180deg, #4F9CF9 0%, #2563EB 100%);
               border-radius: 2px;
               transform-origin: center;
               animation: sound-wave 1.2s ease-in-out infinite;
@@ -159,6 +160,7 @@ export const Player: React.FC<Props> = ({
               display: "flex",
               flexDirection: "column",
               flex: 1,
+              marginRight: 8,
             }}
           >
             <Text id="track" weight="bold">
