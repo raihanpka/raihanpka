@@ -43,32 +43,35 @@ export const Player: React.FC<Props> = ({
               opacity: 0;
             }
 
-            .progress-bar {
-              position: relative;
-              width: 100%;
-              max-width: 360px;
-              height: 4px;
-              margin: -1px;
-              border: 1px solid #e1e4e8;
-              border-radius: 4px;
-              overflow: hidden;
-              padding: 2px;
-              z-index: 0;
+            .visualizer {
+              display: flex;
+              align-items: center;
+              gap: 3px;
+              height: 20px;
+              margin-top: 6px;
             }
 
-            #progress {
-              position: absolute;
-              top: -1px;
-              left: 0;
-              width: 100%;
-              height: 6px;
-              transform-origin: left center;
-              background-color: #D6ED17FF;
-              animation: progress ${duration}ms linear;
-              animation-delay: -${progress}ms;
+            .visualizer-bar {
+              width: 3px;
+              height: 100%;
+              background: linear-gradient(180deg, #D6ED17FF 0%, #A8C414FF 100%);
+              border-radius: 2px;
+              transform-origin: center;
+              animation: sound-wave 1.2s ease-in-out infinite;
             }
+
+            .visualizer-bar:nth-child(1) { animation-delay: 0s; height: 40%; }
+            .visualizer-bar:nth-child(2) { animation-delay: 0.1s; height: 60%; }
+            .visualizer-bar:nth-child(3) { animation-delay: 0.2s; height: 80%; }
+            .visualizer-bar:nth-child(4) { animation-delay: 0.3s; height: 100%; }
+            .visualizer-bar:nth-child(5) { animation-delay: 0.4s; height: 70%; }
+            .visualizer-bar:nth-child(6) { animation-delay: 0.5s; height: 50%; }
+            .visualizer-bar:nth-child(7) { animation-delay: 0.6s; height: 90%; }
+            .visualizer-bar:nth-child(8) { animation-delay: 0.7s; height: 75%; }
+            .visualizer-bar:nth-child(9) { animation-delay: 0.8s; height: 60%; }
+            .visualizer-bar:nth-child(10) { animation-delay: 0.9s; height: 85%; }
             
-            .progress-bar,
+            .visualizer,
             #track,
             #artist,
             #cover {
@@ -82,9 +85,8 @@ export const Player: React.FC<Props> = ({
             #artist {
               animation-delay: 500ms;
             }
-            .progress-bar {
+            .visualizer {
               animation-delay: 550ms;
-              margin-top: 4px;
             }
 
             #cover {
@@ -119,12 +121,14 @@ export const Player: React.FC<Props> = ({
               }
             }
 
-            @keyframes progress {
-              from {
-                transform: scaleX(0)
+            @keyframes sound-wave {
+              0%, 100% {
+                transform: scaleY(0.5);
+                opacity: 0.7;
               }
-              to {
-                transform: scaleX(1)
+              50% {
+                transform: scaleY(1);
+                opacity: 1;
               }
             }
         `}
@@ -153,9 +157,18 @@ export const Player: React.FC<Props> = ({
             {`${track ?? ""} `.trim()}
           </Text>
           <Text id="artist" color={!track ? "gray" : undefined}>
-            {artist || "Nothing playing..."}
-          </Text>
-          {track && (
+            {artist isPlaying && (
+            <div className="visualizer">
+              <div className="visualizer-bar"></div>
+              <div className="visualizer-bar"></div>
+              <div className="visualizer-bar"></div>
+              <div className="visualizer-bar"></div>
+              <div className="visualizer-bar"></div>
+              <div className="visualizer-bar"></div>
+              <div className="visualizer-bar"></div>
+              <div className="visualizer-bar"></div>
+              <div className="visualizer-bar"></div>
+              <div className="visualizer-bar"></div
             <div className="progress-bar">
               <div id="progress" className={!isPlaying ? "paused" : ""} />
             </div>

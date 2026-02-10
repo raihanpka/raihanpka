@@ -76,10 +76,25 @@ export async function nowPlaying(): Promise<NowPlayingResponse> {
     };
   }
 
+  // Get track duration from track.getinfo API
+  let duration_ms = 0;
+  try {
+    const trackInfo = await fetchLastFm('track.getinfo', {
+      track: track.name,
+      artist: track.artist['#text']
+    });
+    if (trackInfo.track && trackInfo.track.duration) {
+      // Last.fm returns duration in milliseconds
+      duration_ms = parseInt(trackInfo.track.duration);
+    }
+  } catch (error) {
+    console.error("Error fetching track info:", error);
+  }
+
   // Map Last.fm data to match Spotify structure expected by the component
   return {
     is_playing: true,
-    progress_ms: 0, // Last.fm doesn't provide real-time progress
+    progress_ms: 0, // Last.fm doesn't provide real-time progress, animation will loop
     item: {
       name: track.name,
       artists: [{ name: track.artist['#text'] }],
@@ -93,7 +108,7 @@ export async function nowPlaying(): Promise<NowPlayingResponse> {
       external_urls: {
         spotify: track.url // Use Last.fm URL instead of Spotify URL
       },
-      duration_ms: 0 // Last.fm doesn't provide duration in recent tracks
+      duration_ms
     }
   };
 }
@@ -128,16 +143,63 @@ export async function topTrack({ index, timeRange = 'short_term' }: { index: num
 
   const track = data.toptracks.track[0];
 
+  // Get album cover from album.getinfo API for better quality cover art
+  let albumImages = track.image.map((img: any) => ({
+    url: img['#text'],
+    height: img.size === 'small' ? 64 : img.size === 'medium' ? 300 : 640,
+    width: img.size === 'small' ? 64 : img.size === 'medium' ? 300 : 640
+  }));
+
+  // Try to get album info for better cover art
+  try {
+    const albumInfo = await fetchLastFm('album.getinfo', {
+      artist: track.artist.name,
+      album: track.name // Try using track name first
+    });
+
+    // If album info is found, use its images
+    if (albumInfo.album && albumInfo.album.image) {
+      albumImages = albumInfo.album.image.map((img: any) => ({
+        url: img['#text'],
+        height: img.size === 'small' ? 64 : img.size === 'medium' ? 300 : 640,
+        width: img.size === 'small' ? 64 : img.size === 'medium' ? 300 : 640
+      }));
+    }
+  } catch (error) {
+    // If album.getinfo fails, try with track.getinfo to get album name
+    try {
+      const trackInfo = await fetchLastFm('track.getinfo', {
+        track: track.name,
+        artist: track.artist.name
+      });
+
+      if (trackInfo.track && trackInfo.track.album) {
+        const albumName = trackInfo.track.album.title;
+        const albumInfoRetry = await fetchLastFm('album.getinfo', {
+          artist: track.artist.name,
+          album: albumName
+        });
+
+        if (albumInfoRetry.album && albumInfoRetry.album.image) {
+          albumImages = albumInfoRetry.album.image.map((img: any) => ({
+            url: img['#text'],
+            height: img.size === 'small' ? 64 : img.size === 'medium' ? 300 : 640,
+            width: img.size === 'small' ? 64 : img.size === 'medium' ? 300 : 640
+          }));
+        }
+      }
+    } catch (innerError) {
+      console.error("Error fetching album info:", innerError);
+      // Fall back to track images
+    }
+  }
+
   // Map Last.fm data to match Spotify structure expected by the component
   return {
     name: track.name,
     artists: [{ name: track.artist.name }],
     album: {
-      images: track.image.map((img: any) => ({
-        url: img['#text'],
-        height: img.size === 'small' ? 64 : img.size === 'medium' ? 300 : 640,
-        width: img.size === 'small' ? 64 : img.size === 'medium' ? 300 : 640
-      }))
+      images: albumImages
     },
     external_urls: {
       spotify: track.url

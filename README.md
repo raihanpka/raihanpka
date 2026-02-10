@@ -3,7 +3,7 @@
 <p align="center">
   <img src="./star-wars-banner.jpg" alt="Hyperspace in Star Wars" />
 </p>
-          
+
 <h2 align="center">Hi there! I'm Raihan</h2>
 
 ###
@@ -61,7 +61,7 @@
   <img width="50" src="https://skillicons.dev/icons?i=astro" alt="Astro" title="Astro" />
   <img width="50" src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" title="Tailwind CSS" />
   <img width="50" src="https://skillicons.dev/icons?i=django" alt="Django" title="Django" />
-	<img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" alt="Streamlit" title="Streamlit"/>
+ <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" alt="Streamlit" title="Streamlit"/>
   <img width="50" src="https://skillicons.dev/icons?i=vite" alt="Vite.js" title="Vite.js" />
   <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg" alt="Expo" title="Expo" />
   <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original-wordmark.svg" alt="React Native" title="React Native" />
@@ -85,7 +85,6 @@
   <img width="50" src="https://skillicons.dev/icons?i=supabase" alt="Supabase" title="Supabase" />
   <img width="50" src="https://skillicons.dev/icons?i=firebase" alt="Firebase" title="Firebase" />
 </div>
-
 
 ###
 
@@ -131,7 +130,6 @@
 | 🎵 Now Playing                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------ |  
 | <a href="https://github-raihanpka.vercel.app/now-playing?open"><img src="https://github-raihanpka.vercel.app/now-playing" width="540" height="64"></a> |
-
 
 <table>
   <thead>
