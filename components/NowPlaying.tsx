@@ -148,16 +148,27 @@ export const Player: React.FC<Props> = ({
           style={{
             display: "flex",
             flex: 1,
-            flexDirection: "column",
+            flexDirection: "row",
+            alignItems: "center",
             marginTop: -4,
             marginLeft: 8,
           }}
         >
-          <Text id="track" weight="bold">
-            {`${track ?? ""} `.trim()}
-          </Text>
-          <Text id="artist" color={!track ? "gray" : undefined}>
-            {artist isPlaying && (
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              flex: 1,
+            }}
+          >
+            <Text id="track" weight="bold">
+              {`${track ?? ""} `.trim()}
+            </Text>
+            <Text id="artist" color={!track ? "gray" : undefined}>
+              {artist || "Nothing playing..."}
+            </Text>
+          </div>
+          {track && isPlaying && (
             <div className="visualizer">
               <div className="visualizer-bar"></div>
               <div className="visualizer-bar"></div>
@@ -168,9 +179,7 @@ export const Player: React.FC<Props> = ({
               <div className="visualizer-bar"></div>
               <div className="visualizer-bar"></div>
               <div className="visualizer-bar"></div>
-              <div className="visualizer-bar"></div
-            <div className="progress-bar">
-              <div id="progress" className={!isPlaying ? "paused" : ""} />
+              <div className="visualizer-bar"></div>
             </div>
           )}
         </div>
