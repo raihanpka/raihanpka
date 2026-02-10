@@ -68,9 +68,17 @@ export async function nowPlaying(): Promise<NowPlayingResponse> {
   const track = data.recenttracks.track[0];
   const isPlaying = track['@attr']?.nowplaying === 'true';
 
+  // Only return track data if currently playing
+  // If not playing, return empty state to show placeholder
+  if (!isPlaying) {
+    return {
+      is_playing: false
+    };
+  }
+
   // Map Last.fm data to match Spotify structure expected by the component
   return {
-    is_playing: isPlaying,
+    is_playing: true,
     progress_ms: 0, // Last.fm doesn't provide real-time progress
     item: {
       name: track.name,

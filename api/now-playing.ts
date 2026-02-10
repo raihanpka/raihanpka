@@ -27,6 +27,20 @@ export default async function (req: VercelRequest, res: VercelResponse) {
   res.setHeader("Content-Type", "image/svg+xml");
   res.setHeader("Cache-Control", "s-maxage=1, stale-while-revalidate");
 
+  // If not playing or no item, show default state
+  if (!isPlaying || !item) {
+    const text = renderToString(
+      Player({ 
+        artist: "", 
+        track: "", 
+        isPlaying: false, 
+        progress: 0, 
+        duration: 0 
+      }) as React.ReactElement
+    );
+    return res.status(200).send(text);
+  }
+
   const { duration_ms: duration, name: track } = item;
   const { images = [] } = item.album || {};
 
