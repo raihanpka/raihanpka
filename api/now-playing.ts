@@ -9,7 +9,6 @@ export default async function (req: VercelRequest, res: VercelResponse) {
   const {
     item = ({} as any),
     is_playing: isPlaying = false,
-    progress_ms: progress = 0,
   } = await nowPlaying();
 
   const params = decode((req.url || "").split("?")[1]) as any;
@@ -33,15 +32,13 @@ export default async function (req: VercelRequest, res: VercelResponse) {
       Player({ 
         artist: "", 
         track: "", 
-        isPlaying: false, 
-        progress: 0, 
-        duration: 0 
+        isPlaying: false
       }) as React.ReactElement
     );
     return res.status(200).send(text);
   }
 
-  const { duration_ms: duration, name: track } = item;
+  const { name: track } = item;
   const { images = [] } = item.album || {};
 
   const cover = images[images.length - 1]?.url;
@@ -53,7 +50,7 @@ export default async function (req: VercelRequest, res: VercelResponse) {
 
   const artist = (item.artists || []).map(({ name }: { name: string }) => name).join(", ");
   const text = renderToString(
-    Player({ cover: coverImg || undefined, artist, track, isPlaying, progress, duration }) as React.ReactElement
+    Player({ cover: coverImg || undefined, artist, track, isPlaying }) as React.ReactElement
   );
   return res.status(200).send(text);
 }

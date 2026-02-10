@@ -6,9 +6,6 @@ export interface Props {
   cover?: string;
   track: string;
   artist: string;
-  // for spotify
-  // progress: number;
-  // duration: number;
   isPlaying: boolean;
 }
 
@@ -16,8 +13,6 @@ export const Player: React.FC<Props> = ({
   cover,
   track,
   artist,
-  // progress,
-  // duration,
   isPlaying,
 }) => {
   return (

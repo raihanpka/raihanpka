@@ -7,7 +7,20 @@ import { topTrack } from "../utils/lastfm";
 export default async function (req: VercelRequest, res: VercelResponse) {
   let { i, open } = req.query;
   i = Array.isArray(i) ? i[0] : i;
-  const item = await topTrack({ index: Number.parseInt(i) });
+  
+  // Extract period from query parameters (3month, 6month, 12month)
+  let period: '3month' | '6month' | '12month' = '3month'; // default
+  
+  // Check if any period parameter is provided
+  if (req.query['3month'] !== undefined) {
+    period = '3month';
+  } else if (req.query['6month'] !== undefined) {
+    period = '6month';
+  } else if (req.query['12month'] !== undefined) {
+    period = '12month';
+  }
+  
+  const item = await topTrack({ index: Number.parseInt(i), timeRange: period });
   
   if (!item) {
       return res.status(404).end();

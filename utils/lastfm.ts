@@ -36,7 +36,6 @@ export interface TrackItem {
 
 export interface NowPlayingResponse {
   is_playing?: boolean;
-  progress_ms?: number;
   item?: TrackItem;
 }
 
@@ -94,7 +93,6 @@ export async function nowPlaying(): Promise<NowPlayingResponse> {
   // Map Last.fm data to match Spotify structure expected by the component
   return {
     is_playing: true,
-    progress_ms: 0, // Last.fm doesn't provide real-time progress, animation will loop
     item: {
       name: track.name,
       artists: [{ name: track.artist['#text'] }],
@@ -113,20 +111,14 @@ export async function nowPlaying(): Promise<NowPlayingResponse> {
   };
 }
 
-export async function topTrack({ index, timeRange = 'short_term' }: { index: number, timeRange?: 'long_term'|'medium_term'|'short_term' }): Promise<TrackItem | null> {
+export async function topTrack({ index, timeRange = '3month' }: { index: number, timeRange?: '3month'|'6month'|'12month' }): Promise<TrackItem | null> {
   if (!user || !api_key) {
       console.error("Missing LASTFM_USERNAME or LASTFM_API_KEY");
       return null;
   }
     
-  // Map Spotify time_range to Last.fm period
-  const periodMap: Record<string, string> = {
-    'short_term': '3month', // Updated to 3month as per user data availability
-    'medium_term': '6month',
-    'long_term': 'overall'
-  };
-  
-  const period = periodMap[timeRange] || 'overall';
+  // Use the provided timeRange directly as Last.fm period
+  const period = timeRange;
   
   // Last.fm pages are 1-based, index is 0-based. 
   // But we want the specific rank.
