@@ -1,155 +1,85 @@
-<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+<div align="center">
 
-<p align="center">
-  <img src="./star-wars-banner.jpg" alt="Hyperspace in Star Wars" />
-</p>
+<img src="https://github.com/raihanpka.png" alt="Raihan Putra Kirana" width="96" style="border-radius:50%">
+<br><br>
 
-<h2 align="center">Hi there! I'm Raihan</h2>
+**Raihan Putra Kirana** &nbsp;·&nbsp; SWE & AI &nbsp;·&nbsp; 3rd Year CS @ IPB University
 
-###
+From software solutions, ML pipelines, to cloud infrastructure—</br>I engineer end-to-end systems and lead teams to ship real products that actually work.
 
-<h4 align="center">ML and SWE Junior. Based in Bogor, Indonesia.</h4>
+[Website](https://raihanpk.com) &nbsp;&middot;&nbsp; [Email](mailto:me@raihanpk.com) &nbsp;&middot;&nbsp; [LinkedIn](https://linkedin.com/in/raihanpk) &nbsp;&middot;&nbsp; [Instagram](https://instagram.com/raihanpka) &nbsp;&middot;&nbsp; [Gallery](https://gallery.raihanpk.com) 
 
 ---
 
-<h3 align="center">Socials</h3>
+</div>
+
+### what i build
+
+- **AI & ML Systems.** I build agentic platforms, RAG pipelines, computer vision tools, and predictive models that go beyond prototypes. [SIGAP](https://github.com/raihanpka/sigap) placed Top 5 at BKN's ASN Digital AI Hackathon, [SATRIA](https://github.com/raihanpka/satria-ml) reached Top 10 at Astranauts 2025 by Astra International, and [KalaNusa](https://github.com/raihanpka/kalanusa-garudahacks) shipped at Garuda Hacks 6.0. All three put ML into real product contexts, not just demos.
+
+- **Full-Stack Web & Mobile.** I build end-to-end applications using React, Next.js, and FastAPI, deployed on cloud services. Projects range from university platforms like [IPB Bike Center](https://github.com/raihanpka/ipb-bike-center) to hackathon MVPs, always focused on shipping something that actually works.
+
+---
+
+### currently building
+
+- **[Project Santara](https://github.com/raihanpka/project-santara)** is a multi-agent GraphRAG simulation engine for agrarian micro-economies. It models supply chain dynamics, food sovereignty, and economic resilience by combining Knowledge Graphs, Agentic RAG, and flexible LLM routing, all running on a high-concurrency Go engine with a Nuxt.js dashboard for live visualization. The goal is replacing rigid mathematical forecasting with emergent, behavioral modeling that can actually anticipate real crises before they happen.</br></br>If you work in multi-agent systems, graph databases, LLM orchestration, or just find the problem space interesting, feel free to open an issue, suggest ideas, or send a PR. Contributions of any size are welcome, the repo is public and the architecture docs are in `.docs/`.
+
+---
+
+### tech stack (what i use)
+
+![languages](https://img.shields.io/static/v1?label=&message=languages:&color=111&style=flat-square)
+![python](https://img.shields.io/static/v1?logo=python&label=&message=python&color=36465D&logoColor=AAA&style=flat-square)
+![typescript](https://img.shields.io/static/v1?logo=typescript&label=&message=typescript&color=36465D&logoColor=AAA&style=flat-square)
+![javascript](https://img.shields.io/static/v1?logo=javascript&label=&message=javascript&color=36465D&logoColor=AAA&style=flat-square)
+![java](https://img.shields.io/static/v1?logo=openjdk&label=&message=java&color=36465D&logoColor=AAA&style=flat-square)
+![c](https://img.shields.io/static/v1?logo=c&label=&message=c&color=36465D&logoColor=AAA&style=flat-square)
+![cplusplus](https://img.shields.io/static/v1?logo=cplusplus&label=&message=c%2B%2B&color=36465D&logoColor=AAA&style=flat-square)
+![scala](https://img.shields.io/static/v1?logo=scala&label=&message=scala&color=36465D&logoColor=AAA&style=flat-square)
+![r](https://img.shields.io/static/v1?logo=r&label=&message=r&color=36465D&logoColor=AAA&style=flat-square)
+
+![frontend](https://img.shields.io/static/v1?label=&message=frontend:&color=111&style=flat-square)
+![react](https://img.shields.io/static/v1?logo=react&label=&message=react&color=36465D&logoColor=AAA&style=flat-square)
+![nextjs](https://img.shields.io/static/v1?logo=nextdotjs&label=&message=next.js&color=36465D&logoColor=AAA&style=flat-square)
+![astro](https://img.shields.io/static/v1?logo=astro&label=&message=astro&color=36465D&logoColor=AAA&style=flat-square)
+![tailwind](https://img.shields.io/static/v1?logo=tailwindcss&label=&message=tailwind&color=36465D&logoColor=AAA&style=flat-square)
+![django](https://img.shields.io/static/v1?logo=django&label=&message=django&color=36465D&logoColor=AAA&style=flat-square)
+![streamlit](https://img.shields.io/static/v1?logo=streamlit&label=&message=streamlit&color=36465D&logoColor=AAA&style=flat-square)
+![vite](https://img.shields.io/static/v1?logo=vite&label=&message=vite&color=36465D&logoColor=AAA&style=flat-square)
+![expo](https://img.shields.io/static/v1?logo=expo&label=&message=expo&color=36465D&logoColor=AAA&style=flat-square)
+
+![backend](https://img.shields.io/static/v1?label=&message=backend:&color=111&style=flat-square)
+![nodejs](https://img.shields.io/static/v1?logo=nodedotjs&label=&message=node.js&color=36465D&logoColor=AAA&style=flat-square)
+![bun](https://img.shields.io/static/v1?logo=bun&label=&message=bun&color=36465D&logoColor=AAA&style=flat-square)
+![express](https://img.shields.io/static/v1?logo=express&label=&message=express&color=36465D&logoColor=AAA&style=flat-square)
+![fastapi](https://img.shields.io/static/v1?logo=fastapi&label=&message=fastapi&color=36465D&logoColor=AAA&style=flat-square)
+![postgresql](https://img.shields.io/static/v1?logo=postgresql&label=&message=postgresql&color=36465D&logoColor=AAA&style=flat-square)
+![mysql](https://img.shields.io/static/v1?logo=mysql&label=&message=mysql&color=36465D&logoColor=AAA&style=flat-square)
+![mongodb](https://img.shields.io/static/v1?logo=mongodb&label=&message=mongodb&color=36465D&logoColor=AAA&style=flat-square)
+![prisma](https://img.shields.io/static/v1?logo=prisma&label=&message=prisma&color=36465D&logoColor=AAA&style=flat-square)
+![supabase](https://img.shields.io/static/v1?logo=supabase&label=&message=supabase&color=36465D&logoColor=AAA&style=flat-square)
+![firebase](https://img.shields.io/static/v1?logo=firebase&label=&message=firebase&color=36465D&logoColor=AAA&style=flat-square)
+
+![ml](https://img.shields.io/static/v1?label=&message=ml/ai:&color=111&style=flat-square)
+![pytorch](https://img.shields.io/static/v1?logo=pytorch&label=&message=pytorch&color=36465D&logoColor=AAA&style=flat-square)
+![tensorflow](https://img.shields.io/static/v1?logo=tensorflow&label=&message=tensorflow&color=36465D&logoColor=AAA&style=flat-square)
+![keras](https://img.shields.io/static/v1?logo=keras&label=&message=keras&color=36465D&logoColor=AAA&style=flat-square)
+![scikitlearn](https://img.shields.io/static/v1?logo=scikitlearn&label=&message=scikit-learn&color=36465D&logoColor=AAA&style=flat-square)
+![opencv](https://img.shields.io/static/v1?logo=opencv&label=&message=opencv&color=36465D&logoColor=AAA&style=flat-square)
+![jupyter](https://img.shields.io/static/v1?logo=jupyter&label=&message=jupyter&color=36465D&logoColor=AAA&style=flat-square)
+![spark](https://img.shields.io/static/v1?logo=apachespark&label=&message=spark&color=36465D&logoColor=AAA&style=flat-square)
+
+![tools](https://img.shields.io/static/v1?label=&message=tools:&color=111&style=flat-square)
+![docker](https://img.shields.io/static/v1?logo=docker&label=&message=docker&color=36465D&logoColor=AAA&style=flat-square)
+![gcp](https://img.shields.io/static/v1?logo=googlecloud&label=&message=gcp&color=36465D&logoColor=AAA&style=flat-square)
+![cloudflare](https://img.shields.io/static/v1?logo=cloudflare&label=&message=cloudflare&color=36465D&logoColor=AAA&style=flat-square)
+![vercel](https://img.shields.io/static/v1?logo=vercel&label=&message=vercel&color=36465D&logoColor=AAA&style=flat-square)
+![k6](https://img.shields.io/static/v1?logo=k6&label=&message=k6&color=36465D&logoColor=AAA&style=flat-square)
+![bash](https://img.shields.io/static/v1?logo=gnubash&label=&message=bash&color=36465D&logoColor=AAA&style=flat-square)
+![linux](https://img.shields.io/static/v1?logo=linux&label=&message=linux&color=36465D&logoColor=AAA&style=flat-square)
+![macos](https://img.shields.io/static/v1?logo=apple&label=&message=macos&color=36465D&logoColor=AAA&style=flat-square)
 
 <div align="center">
-  <a href="mailto:me@raihanpk.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/raihanpk" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/raihanpka" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" />
-  </a>
+<sub>Copyright &copy; 2026 Raihan Putra Kirana. All rights reserved.</sub>
 </div>
-
----
-
-<h3 align="center">Tech Stack</h3>
-
-###
-
-<h3 align="left">Languages</h3>
-
-###
-
-<div >
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" title="Java" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C" title="C" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" alt="Scala" title="Scala" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" alt="R" title="R" />
-</div>
-
-###
-
-<h3 align="left">Frontend</h3>
-
-###
-
-<div align="left">
-  <img width="50" src="https://skillicons.dev/icons?i=html" alt="HTML5" title="HTML5" />
-  <img width="50" src="https://skillicons.dev/icons?i=css" alt="CSS3" title="CSS3" />
-  <img width="50" src="https://skillicons.dev/icons?i=react" alt="React" title="React" />
-  <img width="50" src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" title="Next.js" />
-  <img width="50" src="https://skillicons.dev/icons?i=astro" alt="Astro" title="Astro" />
-  <img width="50" src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" title="Tailwind CSS" />
-  <img width="50" src="https://skillicons.dev/icons?i=django" alt="Django" title="Django" />
- <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" alt="Streamlit" title="Streamlit"/>
-  <img width="50" src="https://skillicons.dev/icons?i=vite" alt="Vite.js" title="Vite.js" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg" alt="Expo" title="Expo" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original-wordmark.svg" alt="React Native" title="React Native" />
-</div>
-
-###
-
-<h3 align="left">Backend</h3>
-
-###
-
-<div align="left">
-  <img width="50" src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" title="Node.js" />
-  <img width="50" src="https://skillicons.dev/icons?i=bun" alt="Bun" title="Bun" />
-  <img width="50" src="https://skillicons.dev/icons?i=express" alt="Express.js" title="Express.js" />
-  <img width="50" src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" title="FastAPI" />
-  <img width="50" src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL" />
-  <img width="50" src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" title="PostgreSQL" />
-  <img width="50" src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" title="MongoDB" />
-  <img width="50" src="https://skillicons.dev/icons?i=prisma" alt="Prisma" title="Prisma" />
-  <img width="50" src="https://skillicons.dev/icons?i=supabase" alt="Supabase" title="Supabase" />
-  <img width="50" src="https://skillicons.dev/icons?i=firebase" alt="Firebase" title="Firebase" />
-</div>
-
-###
-
-<h3 align="left">Machine Learning</h3>
-
-###
-
-<div align="left">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" title="TensorFlow" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg" alt="Keras" title="Keras" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-Learn" title="Scikit-Learn" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV" title="OpenCV" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/networkx/networkx-original.svg" alt="NetworkX" title="NetworkX" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg" alt="Pytest" title="Pytest" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" alt="Jupyter" title="Jupyter"/>
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecolab/googlecolab-original.svg" alt="Google Colab" title="Google Colab"/>
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original.svg" alt="Apache Spark" title="Apache Spark"/>
-</div>
-
-###
-
-<h3 align="left">Tools</h3>
-
-###
-
-<div align="left">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg" alt="Insomnia" title="Insomnia" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg" alt="Docker" title="Docker" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/k6/k6-original.svg" alt="Grafana K6" title="Grafana K6" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud" title="Google Cloud" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflareworkers/cloudflareworkers-original.svg" alt="Cloudflare Workers" title="Cloudflare Workers" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" alt="Vercel" title="Vercel" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash" title="Bash" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" alt="Apple/MacOS" title="Apple/MacOS" />
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" title="Linux" />
-</div>
-
----
-
-<div align="center">
-  
-| 🎵 Now Playing                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------ |  
-| <a href="https://github-raihanpka.vercel.app/now-playing?open"><img src="https://github-raihanpka.vercel.app/now-playing" width="540" height="64"></a> |
-
-<table>
-  <thead>
-    <tr>
-      <th>📈 Top Tracks</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github-raihanpka.vercel.app/top-tracks?i=0&12month&open"><img src="https://github-raihanpka.vercel.app/top-tracks?i=0&12month" width="540" height="64"></a></td>
-    </tr>
-    <tr></tr> <!-- hide gray row -->
-    <tr>
-      <td><a href="https://github-raihanpka.vercel.app/top-tracks?i=1&12month&open"><img src="https://github-raihanpka.vercel.app/top-tracks?i=1&12month" width="540" height="64"></a></td>
-    </tr>
-    <tr></tr> <!-- hide gray row -->
-    <tr>
-      <td><a href="https://github-raihanpka.vercel.app/top-tracks?i=2&12month&open"><img src="https://github-raihanpka.vercel.app/top-tracks?i=2&12month" width="540" height="64"></a></td>
-    </tr>
-  </tbody>
-</table>
-</div>
-  
