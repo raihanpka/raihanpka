@@ -7,6 +7,8 @@
 
 From software solutions, ML pipelines, to cloud infrastructure—</br>I engineer end-to-end systems and lead teams to ship real products that actually work.
 
+![GitHub Profile Views](https://komarev.com/ghpvc/?username=raihanpka&color=262626&style=for-the-badge&label=profile%20views&base=16070) [![Wakatime Hours Badge](https://wakatime.com/badge/user/732a8793-6292-4d36-84f3-586cda1c2e1c.svg?style=for-the-badge)](https://wakatime.com/@raihanpka)
+
 [Website](https://raihanpk.com) &nbsp;&middot;&nbsp; [Email](mailto:me@raihanpk.com) &nbsp;&middot;&nbsp; [LinkedIn](https://linkedin.com/in/raihanpk) &nbsp;&middot;&nbsp; [Instagram](https://instagram.com/raihanpka) &nbsp;&middot;&nbsp; [Gallery](https://gallery.raihanpk.com) 
 
 ---
