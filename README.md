@@ -3,9 +3,9 @@
 <img src="https://github.com/raihanpka.png" alt="Raihan Putra Kirana" width="96" style="border-radius:50%">
 <br><br>
 
-**Raihan Putra Kirana** &nbsp;·&nbsp; SWE & AI &nbsp;·&nbsp; 3rd Year CS @ IPB University
+**Raihan Putra Kirana** &nbsp;·&nbsp; FDE & AI Native Systems &nbsp;·&nbsp; Final Year @ IPB University
 
-From software solutions, ML pipelines, to cloud infrastructure—</br>I engineer end-to-end systems and lead teams to ship real products that actually work.
+I build software, ML and AI systems, *currently exploring inference and infrastructure*,</br>and I always work with teams to ship them as real products.
 
 ![GitHub Profile Views](https://komarev.com/ghpvc/?username=raihanpka&color=262626&style=for-the-badge&label=profile%20views&base=16070) [![Wakatime Hours Badge](https://wakatime.com/badge/user/732a8793-6292-4d36-84f3-586cda1c2e1c.svg?style=for-the-badge)](https://wakatime.com/@raihanpka)
 
@@ -17,15 +17,15 @@ From software solutions, ML pipelines, to cloud infrastructure—</br>I engineer
 
 ### what i build
 
-- **AI & ML Systems.** I build agentic platforms, RAG pipelines, computer vision tools, and predictive models that go beyond prototypes. [SIGAP](https://github.com/raihanpka/sigap) placed Top 5 at BKN's ASN Digital AI Hackathon, [SATRIA](https://github.com/raihanpka/satria-ml) reached Top 10 at Astranauts 2025 by Astra International, and [KalaNusa](https://github.com/raihanpka/kalanusa-garudahacks) shipped at Garuda Hacks 6.0. All three put ML into real product contexts, not just demos.
+- **Forward Deployed & AI Native Systems.** I work close to the problem, combining software engineering with AI systems: agentic platforms, scalable backend systems, and predictive models built around a real client case, where the hard part today is making them scale as software. Most recently, me and my team won **1st Place of the Industry Sector** and **Overall Winner in the General Category** (*Best Innovation Award*) at AI Open Innovation Challenge 2026 by Kemenko Perekonomian & President University, solving *Blibli's logistics case*. [SIGAP](https://github.com/raihanpka/sigap) placed Top 5 at BKN's ASN Digital AI Hackathon, [SATRIA](https://github.com/raihanpka/satria-ml) reached Top 10 at Astranauts 2025 by Astra. All three put AI into real product contexts, where usefulness to the product matters more than the model, so it is not always AI.
 
-- **Full-Stack Web & Mobile.** I build end-to-end applications using React, Next.js, and FastAPI, deployed on cloud services. Projects range from university platforms like [IPB Bike Center](https://github.com/raihanpka/ipb-bike-center) to hackathon MVPs, always focused on shipping something that actually works.
+- **Full-Stack Web & Mobile.** I build end-to-end applications, from university projects like [IPB Bike Center](https://github.com/raihanpka/ipb-bike-center) to pro bono work and paid projects. I also build my own products with friends, including a mobile app for our startup.
 
 ---
 
-### currently building
+### open to collab or work
 
-- **[Project Santara](https://github.com/raihanpka/project-santara)** is a hybrid microservices simulation platform for Indonesia's economic, political, and climate systems, combining a Python intelligence tier for language-model reasoning, Agents-2-Agents (A2A), and MCP with a Go layer for the tick engine, all sharing a `sim-kernel` library. It answers "what if" questions about live Indonesian scenarios, grounded in real public data, and runs locally with `docker compose up` as the demo. The goal is to replace rigid mathematical forecasting with emergent, behavioral modeling that can actually anticipate real Indonesian crises before they happen.</br></br>If you interested work in microservices, gRPC, A2A, MCP, or just find the Indonesia scenario space interesting, feel free to open an issue, suggest ideas, or send a PR. Contributions of any size are welcome!
+If what you're building lines up with what I do, whether that's a side project, a contract, or a full-time role, I'd love to talk. Ideas, issues, and PRs on my repos are always welcome too, big or small.
 
 ---
 
@@ -39,7 +39,7 @@ From software solutions, ML pipelines, to cloud infrastructure—</br>I engineer
 ![c](https://img.shields.io/static/v1?logo=c&label=&message=c&color=36465D&logoColor=AAA&style=flat-square)
 ![cplusplus](https://img.shields.io/static/v1?logo=cplusplus&label=&message=c%2B%2B&color=36465D&logoColor=AAA&style=flat-square)
 ![scala](https://img.shields.io/static/v1?logo=scala&label=&message=scala&color=36465D&logoColor=AAA&style=flat-square)
-![r](https://img.shields.io/static/v1?logo=r&label=&message=r&color=36465D&logoColor=AAA&style=flat-square)
+![go](https://img.shields.io/static/v1?logo=go&label=&message=golang&color=36465D&logoColor=AAA&style=flat-square)
 
 ![frontend](https://img.shields.io/static/v1?label=&message=frontend:&color=111&style=flat-square)
 ![react](https://img.shields.io/static/v1?logo=react&label=&message=react&color=36465D&logoColor=AAA&style=flat-square)
@@ -50,12 +50,15 @@ From software solutions, ML pipelines, to cloud infrastructure—</br>I engineer
 ![streamlit](https://img.shields.io/static/v1?logo=streamlit&label=&message=streamlit&color=36465D&logoColor=AAA&style=flat-square)
 ![vite](https://img.shields.io/static/v1?logo=vite&label=&message=vite&color=36465D&logoColor=AAA&style=flat-square)
 ![expo](https://img.shields.io/static/v1?logo=expo&label=&message=expo&color=36465D&logoColor=AAA&style=flat-square)
+![flutter](https://img.shields.io/static/v1?logo=flutter&label=&message=flutter&color=36465D&logoColor=AAA&style=flat-square)
 
 ![backend](https://img.shields.io/static/v1?label=&message=backend:&color=111&style=flat-square)
 ![nodejs](https://img.shields.io/static/v1?logo=nodedotjs&label=&message=node.js&color=36465D&logoColor=AAA&style=flat-square)
 ![bun](https://img.shields.io/static/v1?logo=bun&label=&message=bun&color=36465D&logoColor=AAA&style=flat-square)
 ![express](https://img.shields.io/static/v1?logo=express&label=&message=express&color=36465D&logoColor=AAA&style=flat-square)
 ![fastapi](https://img.shields.io/static/v1?logo=fastapi&label=&message=fastapi&color=36465D&logoColor=AAA&style=flat-square)
+![gin](https://img.shields.io/static/v1?logo=gin&label=&message=gin&color=36465D&logoColor=AAA&style=flat-square)
+![spring boot](https://img.shields.io/static/v1?logo=springboot&label=&message=spring%20boot&color=36465D&logoColor=AAA&style=flat-square)
 ![postgresql](https://img.shields.io/static/v1?logo=postgresql&label=&message=postgresql&color=36465D&logoColor=AAA&style=flat-square)
 ![mysql](https://img.shields.io/static/v1?logo=mysql&label=&message=mysql&color=36465D&logoColor=AAA&style=flat-square)
 ![mongodb](https://img.shields.io/static/v1?logo=mongodb&label=&message=mongodb&color=36465D&logoColor=AAA&style=flat-square)
@@ -63,7 +66,7 @@ From software solutions, ML pipelines, to cloud infrastructure—</br>I engineer
 ![supabase](https://img.shields.io/static/v1?logo=supabase&label=&message=supabase&color=36465D&logoColor=AAA&style=flat-square)
 ![firebase](https://img.shields.io/static/v1?logo=firebase&label=&message=firebase&color=36465D&logoColor=AAA&style=flat-square)
 
-![ml](https://img.shields.io/static/v1?label=&message=ml/ai:&color=111&style=flat-square)
+![ml](https://img.shields.io/static/v1?label=&message=ml%20%26%20data:&color=111&style=flat-square)
 ![pytorch](https://img.shields.io/static/v1?logo=pytorch&label=&message=pytorch&color=36465D&logoColor=AAA&style=flat-square)
 ![tensorflow](https://img.shields.io/static/v1?logo=tensorflow&label=&message=tensorflow&color=36465D&logoColor=AAA&style=flat-square)
 ![keras](https://img.shields.io/static/v1?logo=keras&label=&message=keras&color=36465D&logoColor=AAA&style=flat-square)
@@ -71,6 +74,8 @@ From software solutions, ML pipelines, to cloud infrastructure—</br>I engineer
 ![opencv](https://img.shields.io/static/v1?logo=opencv&label=&message=opencv&color=36465D&logoColor=AAA&style=flat-square)
 ![jupyter](https://img.shields.io/static/v1?logo=jupyter&label=&message=jupyter&color=36465D&logoColor=AAA&style=flat-square)
 ![spark](https://img.shields.io/static/v1?logo=apachespark&label=&message=spark&color=36465D&logoColor=AAA&style=flat-square)
+![clickhouse](https://img.shields.io/static/v1?logo=clickhouse&label=&message=clickhouse&color=36465D&logoColor=AAA&style=flat-square)
+![databricks](https://img.shields.io/static/v1?logo=databricks&label=&message=databricks&color=36465D&logoColor=AAA&style=flat-square)
 
 ![tools](https://img.shields.io/static/v1?label=&message=tools:&color=111&style=flat-square)
 ![docker](https://img.shields.io/static/v1?logo=docker&label=&message=docker&color=36465D&logoColor=AAA&style=flat-square)
@@ -81,6 +86,8 @@ From software solutions, ML pipelines, to cloud infrastructure—</br>I engineer
 ![bash](https://img.shields.io/static/v1?logo=gnubash&label=&message=bash&color=36465D&logoColor=AAA&style=flat-square)
 ![linux](https://img.shields.io/static/v1?logo=linux&label=&message=linux&color=36465D&logoColor=AAA&style=flat-square)
 ![macos](https://img.shields.io/static/v1?logo=apple&label=&message=macos&color=36465D&logoColor=AAA&style=flat-square)
+![claude code](https://img.shields.io/static/v1?logo=claude&label=&message=claude%20code&color=36465D&logoColor=AAA&style=flat-square)
+![codex](https://img.shields.io/static/v1?logo=gnometerminal&label=&message=codex&color=36465D&logoColor=AAA&style=flat-square)
 
 <div align="center">
 <sub>Copyright &copy; 2026 Raihan Putra Kirana. All rights reserved.</sub>
