@@ -23,6 +23,13 @@ I build software, ML and AI systems, *currently exploring inference and infrastr
 
 ---
 
+### currently building
+
+- **[Bromo](https://github.com/raihanpka/streaming-elt-clickhouse-with-ai)**: self-hosted streaming ELT pipeline into ClickHouse. Events are modeled in bronze, silver, and gold layers, and an AI agent watches the gold tables, flags anomalies with statistics, and explains each one with the read-only SQL behind it, so every finding has evidence.
+- **[dotagent](https://github.com/raihanpka/dotagent)**: minimalist agent swarm workflow for Claude Code. You give it clear requirements, it ships a clean pull request, merges it once review is clean and CI is green, and keeps the setup lighter than the work itself.
+
+---
+
 ### open to collab or work
 
 If what you're building lines up with what I do, whether that's a side project, a contract, or a full-time role, I'd love to talk. Ideas, issues, and PRs on my repos are always welcome too, big or small.
@@ -35,11 +42,12 @@ If what you're building lines up with what I do, whether that's a side project, 
 ![python](https://img.shields.io/static/v1?logo=python&label=&message=python&color=36465D&logoColor=AAA&style=flat-square)
 ![typescript](https://img.shields.io/static/v1?logo=typescript&label=&message=typescript&color=36465D&logoColor=AAA&style=flat-square)
 ![javascript](https://img.shields.io/static/v1?logo=javascript&label=&message=javascript&color=36465D&logoColor=AAA&style=flat-square)
-![java](https://img.shields.io/static/v1?logo=openjdk&label=&message=java&color=36465D&logoColor=AAA&style=flat-square)
-![c](https://img.shields.io/static/v1?logo=c&label=&message=c&color=36465D&logoColor=AAA&style=flat-square)
-![cplusplus](https://img.shields.io/static/v1?logo=cplusplus&label=&message=c%2B%2B&color=36465D&logoColor=AAA&style=flat-square)
-![scala](https://img.shields.io/static/v1?logo=scala&label=&message=scala&color=36465D&logoColor=AAA&style=flat-square)
 ![go](https://img.shields.io/static/v1?logo=go&label=&message=golang&color=36465D&logoColor=AAA&style=flat-square)
+![java](https://img.shields.io/static/v1?logo=openjdk&label=&message=java&color=36465D&logoColor=AAA&style=flat-square)
+![kotlin](https://img.shields.io/static/v1?logo=kotlin&label=&message=kotlin&color=36465D&logoColor=AAA&style=flat-square)
+![latex](https://img.shields.io/static/v1?logo=latex&label=&message=latex&color=36465D&logoColor=AAA&style=flat-square)
+![scala](https://img.shields.io/static/v1?logo=scala&label=&message=scala&color=36465D&logoColor=AAA&style=flat-square)
+![cplusplus](https://img.shields.io/static/v1?logo=cplusplus&label=&message=c%2B%2B&color=36465D&logoColor=AAA&style=flat-square)
 
 ![frontend](https://img.shields.io/static/v1?label=&message=frontend:&color=111&style=flat-square)
 ![react](https://img.shields.io/static/v1?logo=react&label=&message=react&color=36465D&logoColor=AAA&style=flat-square)
@@ -55,13 +63,17 @@ If what you're building lines up with what I do, whether that's a side project, 
 ![backend](https://img.shields.io/static/v1?label=&message=backend:&color=111&style=flat-square)
 ![nodejs](https://img.shields.io/static/v1?logo=nodedotjs&label=&message=node.js&color=36465D&logoColor=AAA&style=flat-square)
 ![bun](https://img.shields.io/static/v1?logo=bun&label=&message=bun&color=36465D&logoColor=AAA&style=flat-square)
+![pnpm](https://img.shields.io/static/v1?logo=pnpm&label=&message=pnpm&color=36465D&logoColor=AAA&style=flat-square)
 ![express](https://img.shields.io/static/v1?logo=express&label=&message=express&color=36465D&logoColor=AAA&style=flat-square)
+![nestjs](https://img.shields.io/static/v1?logo=nestjs&label=&message=nestjs&color=36465D&logoColor=AAA&style=flat-square)
+![hono](https://img.shields.io/static/v1?logo=hono&label=&message=hono&color=36465D&logoColor=AAA&style=flat-square)
 ![fastapi](https://img.shields.io/static/v1?logo=fastapi&label=&message=fastapi&color=36465D&logoColor=AAA&style=flat-square)
 ![gin](https://img.shields.io/static/v1?logo=gin&label=&message=gin&color=36465D&logoColor=AAA&style=flat-square)
 ![spring boot](https://img.shields.io/static/v1?logo=springboot&label=&message=spring%20boot&color=36465D&logoColor=AAA&style=flat-square)
 ![postgresql](https://img.shields.io/static/v1?logo=postgresql&label=&message=postgresql&color=36465D&logoColor=AAA&style=flat-square)
 ![mysql](https://img.shields.io/static/v1?logo=mysql&label=&message=mysql&color=36465D&logoColor=AAA&style=flat-square)
 ![mongodb](https://img.shields.io/static/v1?logo=mongodb&label=&message=mongodb&color=36465D&logoColor=AAA&style=flat-square)
+![redis](https://img.shields.io/static/v1?logo=redis&label=&message=redis&color=36465D&logoColor=AAA&style=flat-square)
 ![prisma](https://img.shields.io/static/v1?logo=prisma&label=&message=prisma&color=36465D&logoColor=AAA&style=flat-square)
 ![supabase](https://img.shields.io/static/v1?logo=supabase&label=&message=supabase&color=36465D&logoColor=AAA&style=flat-square)
 ![firebase](https://img.shields.io/static/v1?logo=firebase&label=&message=firebase&color=36465D&logoColor=AAA&style=flat-square)
@@ -74,6 +86,7 @@ If what you're building lines up with what I do, whether that's a side project, 
 ![opencv](https://img.shields.io/static/v1?logo=opencv&label=&message=opencv&color=36465D&logoColor=AAA&style=flat-square)
 ![jupyter](https://img.shields.io/static/v1?logo=jupyter&label=&message=jupyter&color=36465D&logoColor=AAA&style=flat-square)
 ![spark](https://img.shields.io/static/v1?logo=apachespark&label=&message=spark&color=36465D&logoColor=AAA&style=flat-square)
+![apacheflink](https://img.shields.io/static/v1?logo=apacheflink&label=&message=apache%20flink&color=36465D&logoColor=AAA&style=flat-square)
 ![clickhouse](https://img.shields.io/static/v1?logo=clickhouse&label=&message=clickhouse&color=36465D&logoColor=AAA&style=flat-square)
 ![databricks](https://img.shields.io/static/v1?logo=databricks&label=&message=databricks&color=36465D&logoColor=AAA&style=flat-square)
 
@@ -85,6 +98,8 @@ If what you're building lines up with what I do, whether that's a side project, 
 ![k6](https://img.shields.io/static/v1?logo=k6&label=&message=k6&color=36465D&logoColor=AAA&style=flat-square)
 ![bash](https://img.shields.io/static/v1?logo=gnubash&label=&message=bash&color=36465D&logoColor=AAA&style=flat-square)
 ![linux](https://img.shields.io/static/v1?logo=linux&label=&message=linux&color=36465D&logoColor=AAA&style=flat-square)
+![gradle](https://img.shields.io/static/v1?logo=gradle&label=&message=gradle&color=36465D&logoColor=AAA&style=flat-square)
+![githubactions](https://img.shields.io/static/v1?logo=githubactions&label=&message=github%20actions&color=36465D&logoColor=AAA&style=flat-square)
 ![macos](https://img.shields.io/static/v1?logo=apple&label=&message=macos&color=36465D&logoColor=AAA&style=flat-square)
 ![claude code](https://img.shields.io/static/v1?logo=claude&label=&message=claude%20code&color=36465D&logoColor=AAA&style=flat-square)
 ![codex](https://img.shields.io/static/v1?logo=gnometerminal&label=&message=codex&color=36465D&logoColor=AAA&style=flat-square)
