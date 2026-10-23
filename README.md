@@ -17,7 +17,7 @@ I build software, ML and AI systems, *currently exploring inference and infrastr
 
 ### what i build
 
-- **Forward Deployed & AI Native Systems.** I work close to the problem, combining software engineering with AI systems: agentic platforms, scalable backend systems, and predictive models built around a real client case, where the hard part today is making them scale as software. Most recently, me and my team won **1st Place of the Industry Sector** and **Overall Winner in the General Category** (*Best Innovation Award*) at AI Open Innovation Challenge 2026 by Kemenko Perekonomian & President University, solving *Blibli's logistics case*. [SIGAP](https://github.com/raihanpka/sigap) placed Top 5 at BKN's ASN Digital AI Hackathon, [SATRIA](https://github.com/raihanpka/satria-ml) reached Top 10 at Astranauts 2025 by Astra. All three put AI into real product contexts, where usefulness to the product matters more than the model, so it is not always AI.
+- **Forward Deployed & AI Native Systems.** I work close to the problem, combining software engineering with AI systems: agentic platforms, scalable backend systems, and predictive models built around a real client case, where the hard part today is making them scale as software. Most recently, my team won **1st Place of the Industry Sector** and **Overall Winner in the General Category** at AI Open Innovation Challenge 2026, solving *Blibli's logistics case*. [SIGAP](https://github.com/raihanpka/sigap) placed Top 5 at BKN's ASN Digital AI Hackathon, [SATRIA](https://github.com/raihanpka/satria-ml) reached Top 10 at Astranauts 2025 by Astra. All three put AI into real product contexts, where usefulness to the product matters more than the model, so it is not always AI.
 
 - **Full-Stack Web & Mobile.** I build end-to-end applications, from university projects like [IPB Bike Center](https://github.com/raihanpka/ipb-bike-center) to pro bono work and paid projects. I also build my own products with friends, including a mobile app for our startup.
 
@@ -77,14 +77,29 @@ If what you're building lines up with what I do, whether that's a side project, 
 ![prisma](https://img.shields.io/static/v1?logo=prisma&label=&message=prisma&color=36465D&logoColor=AAA&style=flat-square)
 ![supabase](https://img.shields.io/static/v1?logo=supabase&label=&message=supabase&color=36465D&logoColor=AAA&style=flat-square)
 ![firebase](https://img.shields.io/static/v1?logo=firebase&label=&message=firebase&color=36465D&logoColor=AAA&style=flat-square)
+![graphql](https://img.shields.io/static/v1?logo=graphql&label=&message=graphql&color=36465D&logoColor=AAA&style=flat-square)
+![rabbitmq](https://img.shields.io/static/v1?logo=rabbitmq&label=&message=rabbitmq&color=36465D&logoColor=AAA&style=flat-square)
+![sentry](https://img.shields.io/static/v1?logo=sentry&label=&message=sentry&color=36465D&logoColor=AAA&style=flat-square)
 
-![ml](https://img.shields.io/static/v1?label=&message=ml%20%26%20data:&color=111&style=flat-square)
+![ai & data](https://img.shields.io/static/v1?label=&message=ai%20%26%20data:&color=111&style=flat-square)
+![langchain](https://img.shields.io/static/v1?logo=langchain&label=&message=langchain&color=36465D&logoColor=AAA&style=flat-square)
+![langgraph](https://img.shields.io/static/v1?logo=langgraph&label=&message=langgraph&color=36465D&logoColor=AAA&style=flat-square)
+![mlflow](https://img.shields.io/static/v1?logo=mlflow&label=&message=mlflow&color=36465D&logoColor=AAA&style=flat-square)
+![huggingface](https://img.shields.io/static/v1?logo=huggingface&label=&message=hugging%20face&color=36465D&logoColor=AAA&style=flat-square)
+![ollama](https://img.shields.io/static/v1?logo=ollama&label=&message=ollama&color=36465D&logoColor=AAA&style=flat-square)
+![anthropic](https://img.shields.io/static/v1?logo=anthropic&label=&message=anthropic&color=36465D&logoColor=AAA&style=flat-square)
+![gemini](https://img.shields.io/static/v1?logo=googlegemini&label=&message=gemini&color=36465D&logoColor=AAA&style=flat-square)
+![openrouter](https://img.shields.io/static/v1?logo=openrouter&label=&message=openrouter&color=36465D&logoColor=AAA&style=flat-square)
+![mcp](https://img.shields.io/static/v1?logo=modelcontextprotocol&label=&message=mcp&color=36465D&logoColor=AAA&style=flat-square)
+![qdrant](https://img.shields.io/static/v1?logo=qdrant&label=&message=qdrant&color=36465D&logoColor=AAA&style=flat-square)
 ![pytorch](https://img.shields.io/static/v1?logo=pytorch&label=&message=pytorch&color=36465D&logoColor=AAA&style=flat-square)
 ![tensorflow](https://img.shields.io/static/v1?logo=tensorflow&label=&message=tensorflow&color=36465D&logoColor=AAA&style=flat-square)
 ![keras](https://img.shields.io/static/v1?logo=keras&label=&message=keras&color=36465D&logoColor=AAA&style=flat-square)
 ![scikitlearn](https://img.shields.io/static/v1?logo=scikitlearn&label=&message=scikit-learn&color=36465D&logoColor=AAA&style=flat-square)
 ![opencv](https://img.shields.io/static/v1?logo=opencv&label=&message=opencv&color=36465D&logoColor=AAA&style=flat-square)
 ![jupyter](https://img.shields.io/static/v1?logo=jupyter&label=&message=jupyter&color=36465D&logoColor=AAA&style=flat-square)
+![pandas](https://img.shields.io/static/v1?logo=pandas&label=&message=pandas&color=36465D&logoColor=AAA&style=flat-square)
+![numpy](https://img.shields.io/static/v1?logo=numpy&label=&message=numpy&color=36465D&logoColor=AAA&style=flat-square)
 ![spark](https://img.shields.io/static/v1?logo=apachespark&label=&message=spark&color=36465D&logoColor=AAA&style=flat-square)
 ![apacheflink](https://img.shields.io/static/v1?logo=apacheflink&label=&message=apache%20flink&color=36465D&logoColor=AAA&style=flat-square)
 ![clickhouse](https://img.shields.io/static/v1?logo=clickhouse&label=&message=clickhouse&color=36465D&logoColor=AAA&style=flat-square)
@@ -96,6 +111,11 @@ If what you're building lines up with what I do, whether that's a side project, 
 ![cloudflare](https://img.shields.io/static/v1?logo=cloudflare&label=&message=cloudflare&color=36465D&logoColor=AAA&style=flat-square)
 ![vercel](https://img.shields.io/static/v1?logo=vercel&label=&message=vercel&color=36465D&logoColor=AAA&style=flat-square)
 ![k6](https://img.shields.io/static/v1?logo=k6&label=&message=k6&color=36465D&logoColor=AAA&style=flat-square)
+![pytest](https://img.shields.io/static/v1?logo=pytest&label=&message=pytest&color=36465D&logoColor=AAA&style=flat-square)
+![vitest](https://img.shields.io/static/v1?logo=vitest&label=&message=vitest&color=36465D&logoColor=AAA&style=flat-square)
+![opentelemetry](https://img.shields.io/static/v1?logo=opentelemetry&label=&message=opentelemetry&color=36465D&logoColor=AAA&style=flat-square)
+![grafana](https://img.shields.io/static/v1?logo=grafana&label=&message=grafana&color=36465D&logoColor=AAA&style=flat-square)
+![prometheus](https://img.shields.io/static/v1?logo=prometheus&label=&message=prometheus&color=36465D&logoColor=AAA&style=flat-square)
 ![bash](https://img.shields.io/static/v1?logo=gnubash&label=&message=bash&color=36465D&logoColor=AAA&style=flat-square)
 ![linux](https://img.shields.io/static/v1?logo=linux&label=&message=linux&color=36465D&logoColor=AAA&style=flat-square)
 ![gradle](https://img.shields.io/static/v1?logo=gradle&label=&message=gradle&color=36465D&logoColor=AAA&style=flat-square)
