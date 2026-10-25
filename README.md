@@ -10,15 +10,15 @@ swe & ai systems &middot; data science intern @ [zurich insurance](https://www.z
 
 #### what i do
 
-- **SWE & AI systems.** I work close to the problem, combining software engineering with AI: agentic platforms, scalable backends, and predictive models built around real client cases.
-- **Latest competitions.** 1st Place in the Industry Sector and Overall Winner in the General Category at AI Open Innovation Challenge 2026 (Blibli's logistics case). Top 5 with [SIGAP](https://github.com/raihanpka/sigap) at BKN's ASN Digital AI Hackathon 2025, Top 10 with [SATRIA](https://github.com/raihanpka/satria-ml) at Astranauts by Astra International 2025.
+- **swe & ai systems.** i work close to the problem, combining software engineering with AI: **agentic platforms**, **scalable backends**, and **predictive models** built around real client cases. software solutions and automation, built to scale, from the first prototype to the production release.
+- **latest competitions.** me and my team won **1st place in the industry sector** and **overall winner in the general category** at AI Open Innovation Challenge 2026 (Blibli's logistics case). **top 5** with [sigap](https://github.com/raihanpka/sigap) at BKN's ASN Digital AI Hackathon 2025, **top 10** with [satria](https://github.com/raihanpka/satria-ml) at Astranauts by Astra International 2025.
 
 ---
 
 ### currently building
 
-- [**Bromo**](https://github.com/raihanpka/streaming-elt-clickhouse-with-ai) <a href="https://github.com/raihanpka/streaming-elt-clickhouse-with-ai"><img src="https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f30b.svg" alt="volcano icon" width="17" height="17" align="absmiddle" /></a> self-hosted streaming ELT into ClickHouse <a href="https://clickhouse.com"><img src="https://cdn.simpleicons.org/clickhouse/FFCC00" alt="clickhouse icon" width="15" height="15" align="absmiddle" /></a>, with an agent that flags anomalies in the gold tables and shows the read-only SQL behind each one.
-- [**dotagent**](https://github.com/raihanpka/dotagent) <a href="https://github.com/raihanpka/dotagent"><img src="https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f916.svg" alt="robot icon" width="17" height="17" align="absmiddle" /></a> a minimalist agent swarm workflow for Claude Code <a href="https://claude.com/product/claude-code"><img src="https://cdn.simpleicons.org/claude/D97757" alt="claude code icon" width="15" height="15" align="absmiddle" /></a>: clear requirements in, a clean pull request out.
+- [**Bromo**](https://github.com/raihanpka/streaming-elt-clickhouse-with-ai) <a href="https://github.com/raihanpka/streaming-elt-clickhouse-with-ai"><img src="https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f30b.svg" alt="volcano icon" width="17" height="17" align="absmiddle" /></a>, self-hosted streaming ELT into ClickHouse <a href="https://clickhouse.com"><img src="https://cdn.simpleicons.org/clickhouse/FFCC00" alt="clickhouse icon" width="15" height="15" align="absmiddle" /></a>, with an agent that flags anomalies in the gold tables and shows the read-only SQL behind each one.
+- [**dotagent**](https://github.com/raihanpka/dotagent) <a href="https://github.com/raihanpka/dotagent"><img src="https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f916.svg" alt="robot icon" width="17" height="17" align="absmiddle" /></a>, a minimalist agent swarm workflow for Claude Code <a href="https://claude.com/product/claude-code"><img src="https://cdn.simpleicons.org/claude/D97757" alt="claude code icon" width="15" height="15" align="absmiddle" /></a>: clear requirements in, a clean pull request out.
 
 ---
 
