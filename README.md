@@ -1,6 +1,6 @@
-**hey, i'm raihan!** <a href="https://raihanpk.com"><img src="https://raw.githubusercontent.com/raihanpka/raihanpk/main/public/static/profile/avatar.png" alt="raihanpk icon" width="17" height="17" align="absmiddle" /></a>
+### hello, i'm raihan! <a href="https://raihanpk.com"><img src="./images/raihan.png" alt="raihanpk icon" width="17" height="17" align="absmiddle" /></a>
 
-swe & ai systems &middot; data science intern @ [Zurich Insurance](https://www.zurich.com/) <a href="https://www.zurich.com/"><img src="./images/zurich.png" alt="zurich icon" width="17" height="17" align="absmiddle" /></a> &middot; cto @ Lemma Bercerita &middot; final year cs @ [IPB University](https://ipb.ac.id) <a href="https://ipb.ac.id"><img src="./images/ipb.png" alt="ipb icon" width="17" height="17" align="absmiddle" /></a>
+swe & ai systems &middot; data science intern @ [Zurich Insurance](https://www.zurich.com/) <a href="https://www.zurich.com/"><img src="./images/zurich.png" alt="zurich icon" width="17" height="17" align="absmiddle" /></a> &middot; cto @ lemma bercerita &middot; final year cs @ [IPB University](https://ipb.ac.id) <a href="https://ipb.ac.id"><img src="./images/ipb.png" alt="ipb icon" width="17" height="17" align="absmiddle" /></a>
 
 ![GitHub Profile Views](https://komarev.com/ghpvc/?username=raihanpka&color=262626&style=flat-square&label=profile%20views&base=16070) [![Wakatime Hours Badge](https://wakatime.com/badge/user/732a8793-6292-4d36-84f3-586cda1c2e1c.svg?style=flat-square)](https://wakatime.com/@raihanpka)
 
@@ -11,12 +11,11 @@ swe & ai systems &middot; data science intern @ [Zurich Insurance](https://www.z
 #### what i build
 
 - **SWE & AI systems.** I work close to the problem, combining software engineering with AI: agentic platforms, scalable backends, and predictive models built around real client cases.
-- **Wins.** 1st Place in the Industry Sector and Overall Winner in the General Category at AI Open Innovation Challenge 2026 (Blibli's logistics case). Top 5 with [SIGAP](https://github.com/raihanpka/sigap) at BKN's ASN Digital AI Hackathon, Top 10 with [SATRIA](https://github.com/raihanpka/satria-ml) at Astranauts 2025.
-- **Full-stack web & mobile.** End-to-end apps, from university projects like [IPB Bike Center](https://github.com/raihanpka/ipb-bike-center) to pro bono and paid work, plus products with friends, including a mobile app for our startup.
+- **Latest competitions.** 1st Place in the Industry Sector and Overall Winner in the General Category at AI Open Innovation Challenge 2026 (Blibli's logistics case). Top 5 with [SIGAP](https://github.com/raihanpka/sigap) at BKN's ASN Digital AI Hackathon, Top 10 with [SATRIA](https://github.com/raihanpka/satria-ml) at Astranauts 2025.
 
 ---
 
-#### currently building
+### currently building
 
 - [**Bromo**](https://github.com/raihanpka/streaming-elt-clickhouse-with-ai) <a href="https://github.com/raihanpka/streaming-elt-clickhouse-with-ai"><img src="https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f30b.svg" alt="volcano icon" width="17" height="17" align="absmiddle" /></a> self-hosted streaming ELT into ClickHouse <a href="https://clickhouse.com"><img src="https://cdn.simpleicons.org/clickhouse/FFCC00" alt="clickhouse icon" width="15" height="15" align="absmiddle" /></a>, with an agent that flags anomalies in the gold tables and shows the read-only SQL behind each one.
 - [**dotagent**](https://github.com/raihanpka/dotagent) <a href="https://github.com/raihanpka/dotagent"><img src="https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f916.svg" alt="robot icon" width="17" height="17" align="absmiddle" /></a> a minimalist agent swarm workflow for Claude Code <a href="https://claude.com/product/claude-code"><img src="https://cdn.simpleicons.org/claude/D97757" alt="claude code icon" width="15" height="15" align="absmiddle" /></a>: clear requirements in, a clean pull request out.
