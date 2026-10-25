@@ -8,7 +8,7 @@ swe & ai systems &middot; data science intern @ [Zurich Insurance](https://www.z
 
 ---
 
-#### what i build
+#### what i do
 
 - **SWE & AI systems.** I work close to the problem, combining software engineering with AI: agentic platforms, scalable backends, and predictive models built around real client cases.
 - **Latest competitions.** 1st Place in the Industry Sector and Overall Winner in the General Category at AI Open Innovation Challenge 2026 (Blibli's logistics case). Top 5 with [SIGAP](https://github.com/raihanpka/sigap) at BKN's ASN Digital AI Hackathon, Top 10 with [SATRIA](https://github.com/raihanpka/satria-ml) at Astranauts 2025.
